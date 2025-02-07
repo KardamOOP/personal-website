@@ -1,11 +1,13 @@
 import './App.css'
-import MainPage from './MainPage'
+import Main from './components/Main'
+import Navbar from './components/Navbar'
 
 function App() {
   return (
-    <>
-      <MainPage />
-    </>
+    <div className='main'>
+      <Navbar />
+      <Main />
+    </div>
   )
 }
 
